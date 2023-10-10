@@ -1,0 +1,52 @@
+/* FormSection.css */
+
+.form-section {
+  /* Adjust based on your sidebar width */
+  padding: 20px;
+  max-width: "400px";
+  margin: auto;
+  font-family: "Arial, sans-serif";
+}
+
+.form-section h2 {
+  margin-right: 250px;
+  color: #020202;
+}
+
+.form-section form {
+  margin-bottom: 20px;
+}
+
+.form-section label {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-section input {
+  margin-left: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 40%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.form-section button {
+  border-radius: 5px;
+  background-color: #0e0f0e;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.form-section button:hover {
+  background-color: #4b504b;
+}
+
+@media screen and (max-width: 600px) {
+  .form-section {
+    margin-left: 0;
+  }
+}

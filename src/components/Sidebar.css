@@ -1,0 +1,35 @@
+/* Sidebar.css */
+
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar ul {
+  margin: 20%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+
+  margin-bottom: 10px;
+}
+
+.sidebar li:hover {
+  color: #706f6a;
+}
+@media screen and (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+}

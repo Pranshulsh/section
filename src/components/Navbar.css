@@ -1,0 +1,43 @@
+.navStyle {
+  box-sizing: border-box;
+  border-color: rgb(145, 139, 139);
+  border-bottom: thick;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.brandStyle {
+  font-size: 24px;
+  font-style: italic;
+  color: rgb(77, 156, 57);
+}
+.profileStyle {
+  display: flex;
+  align-items: "center";
+  cursor: pointer;
+}
+.cartStyle {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.profile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.navitems {
+  list-style: none;
+  padding: 0;
+}
+.navitems li {
+  display: flex;
+  gap: 1rem;
+  font-weight: 500;
+  list-style: none;
+}
